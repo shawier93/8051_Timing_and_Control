@@ -6,7 +6,7 @@ Subtract departure time from arrival time and format the elapsed hours and minut
 
 ## Implementations
 
-This version handles minute borrowing. Dates and overnight travel are not established by the example, so do not assume a full travel-time calculator.
+The calculation handles minute borrowing; the implementation does not account for dates or overnight travel.
 
 | Implementation | Input | Output |
 | --- | --- | --- |

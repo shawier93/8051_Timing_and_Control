@@ -18,7 +18,7 @@ Repeatedly send a sequence of signal patterns to three output ports.
 
 ## Worked example
 
-The software-delay version cycles through six documented patterns and then returns to the first. The physical light colours depend on the connected circuit.
+The software-delay version cycles through six output patterns and then returns to the first. The physical light colours depend on the connected circuit.
 
 ### Calculation details
 
@@ -53,12 +53,4 @@ B -->|Results or control signals| E["Output: P1, P2, P3 signals"]
 
 **Port registers:** `P1`, `P2`, `P3`.
 
-## Technical limitations
-
-No additional defect was recorded in the earlier source review. This is not evidence of a successful build or hardware test.
-
-## Build and test
-
-1. Open the [assembly source](source.asm) in an 8051 assembler or simulator.
-2. Review the technical limitations and configure the peripherals required by this implementation.
-3. Check the expected result using the example inputs.
+[Assembly source](source.asm)
